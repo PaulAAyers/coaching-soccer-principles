@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Complete course materials, readings, learning objectives, and practicums for Coaching Soccer Principles, Second Edition." name="description"/>
+<title>Coaching Soccer Principles, Second Edition | Course Materials</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<style>
+
+    :root {
+      color-scheme: light;
+      --maroon: #942a2c;
+      --text: #282828;
+      --rule: #efefef;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { font-size: 100%; }
+
+    body {
+      margin: 0;
+      background: #fff;
+      color: var(--text);
+      font-family: "Lato", "Segoe UI", Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .course-header {
+      min-height: 142px;
+      padding: 31px 5.25% 24px;
+      border-top-left-radius: 10px;
+      background-color: var(--maroon);
+      color: #fff;
+    }
+
+    .course-header h1 {
+      margin: 0;
+      font-size: 42.25px;
+      font-weight: 700;
+      line-height: 1.185;
+    }
+
+    .course-header .subtitle {
+      margin: 0;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.32;
+    }
+
+    main {
+      padding: 58px 6.3% 80px 5.25%;
+    }
+
+    .page-title {
+      margin: 0;
+      padding: 0 0 26px;
+      border-bottom: 1px solid var(--rule);
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 1.3;
+    }
+
+    .required-reading { margin-top: 37px; }
+
+    h3 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 1.32;
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1.4;
+    }
+
+    ul {
+      margin: 13px 0 0;
+      padding-left: 39px;
+    }
+
+    li {
+      padding-left: 0;
+      font-size: 20px;
+      line-height: 1.75;
+    }
+
+    .objectives-heading { margin-top: 15px; }
+
+    .objectives-list { margin-top: 11px; }
+
+    .optional-reading { margin-top: 34px; }
+
+    .optional-reading p {
+      margin: 14px 0 12px;
+    }
+
+    .optional-reading .objectives-heading { margin-top: 16px; }
+
+    .optional-reading .objectives-list { margin-top: 11px; }
+
+    cite { font-style: italic; }
+
+    @media (max-width: 760px) {
+      body { font-size: 17px; }
+      .course-header {
+        min-height: 0;
+        padding: 24px 6% 22px;
+      }
+      .course-header h1 {
+        font-size: clamp(28px, 5vw, 42px);
+        line-height: 1.2;
+      }
+      .course-header .subtitle { font-size: 20px; }
+      main { padding: 35px 6% 70px; }
+      .page-title { font-size: 30px; }
+      h3 { font-size: 25px; }
+      h4 { font-size: 22px; }
+      li { font-size: 17px; line-height: 1.6; }
+      ul { padding-left: 28px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; }
+    }
+  
+    /* Keep the design of the provided Coaching Soccer page while supporting a multi-part course. */
+    .course-section + .course-section { margin-top: 66px; }
+    .reading-block { margin-top: 34px; }
+    .course-section > .reading-block:first-of-type { margin-top: 37px; }
+    .subsection-heading { margin-top: 18px; }
+    .chapter-heading {
+      margin: 16px 0 0;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.4;
+    }
+    .chapter-heading + ul { margin-top: 7px; }
+    .reading-block > ul + .subsection-heading { margin-top: 17px; }
+    .reading-block > ul + .chapter-heading { margin-top: 14px; }
+    .reading-block > ul { margin-bottom: 0; }
+    .reading-block .source-marker { font-weight: 700; }
+    a:focus-visible { outline: 3px solid #f7cc62; outline-offset: 3px; }
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 14px;
+      background: #fff;
+      color: #191919;
+      padding: 8px 15px;
+      z-index: 2;
+    }
+    .skip-link:focus { top: 10px; }
+    @media (max-width: 760px) {
+      .chapter-heading { font-size: 20px; }
+      .course-section + .course-section { margin-top: 52px; }
+    }
+
+  
+    /* Form and worksheet names are plain text; only Download links provide access to the Word files. */
+    .resource-download {
+      color: #7b2226;
+      text-decoration: underline;
+      text-underline-offset: 0.14em;
+      text-decoration-thickness: 1px;
+    }
+    .resource-download:hover {
+      color: #5e1418;
+      text-decoration-thickness: 2px;
+    }
+    .resource-actions {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-left: 10px;
+      font-size: 0.85em;
+      white-space: nowrap;
+      vertical-align: baseline;
+    }
+    .resource-download:focus-visible {
+      outline: 3px solid #3b6d9a;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+    @media (max-width: 760px) {
+      .resource-actions { gap: 9px; margin-left: 6px; }
+    }
+
+/* Unavailable resources remain readable; avoid broken links until assets are supplied. */
+.resource-unavailable-title { color: inherit; }
+.resource-unavailable-status {
+  display: inline-block;
+  margin-left: 10px;
+  color: #666;
+  font-size: .84em;
+  font-style: italic;
+}
+
+
+    /* Sticky, keyboard-friendly breadcrumb navigation for four parts and 18 chapters. */
+    :root { --breadcrumb-height: 62px; }
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      margin: -1px !important;
+      padding: 0 !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+    .course-breadcrumb-nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 10px 5.25%;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0,0,0,.045);
+      font-size: 16px;
+      line-height: 1.35;
+    }
+    .breadcrumb-trail {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 7px 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .breadcrumb-trail > li {
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+    .breadcrumb-home {
+      color: #6f1c21;
+      font-weight: 700;
+      text-underline-offset: 3px;
+    }
+    .breadcrumb-home:hover { color: #4c0e11; }
+    .breadcrumb-separator {
+      color: #777;
+      font-size: 21px !important;
+      font-weight: 400;
+      user-select: none;
+    }
+    .breadcrumb-picker { position: relative; }
+    .breadcrumb-picker > summary {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 11px;
+      border: 1px solid #d8d8d8;
+      border-radius: 5px;
+      color: #333;
+      background: #fff;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      list-style: none;
+      white-space: nowrap;
+    }
+    .breadcrumb-picker > summary::-webkit-details-marker { display: none; }
+    .breadcrumb-picker > summary::marker { content: ''; }
+    .breadcrumb-picker > summary:hover,
+    .breadcrumb-picker[open] > summary {
+      background: #f9f2f2;
+      border-color: #942a2c;
+    }
+    .breadcrumb-caret { color: #942a2c; font-size: 15px; transition: transform .15s ease; }
+    .breadcrumb-picker[open] .breadcrumb-caret { transform: rotate(180deg); }
+    .breadcrumb-panel {
+      position: absolute;
+      z-index: 60;
+      top: calc(100% + 7px);
+      left: 0;
+      width: min(470px, calc(100vw - 24px));
+      max-height: min(64vh, 530px);
+      overflow-y: auto;
+      border: 1px solid #d6d6d6;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 12px 24px rgba(0,0,0,.16);
+      overscroll-behavior: contain;
+    }
+    .breadcrumb-picker--chapters .breadcrumb-panel {
+      width: min(510px, calc(100vw - 24px));
+    }
+    .breadcrumb-panel .breadcrumb-links {
+      list-style: none;
+      margin: 0;
+      padding: 7px;
+    }
+    .breadcrumb-panel .breadcrumb-links li {
+      margin: 0;
+      padding: 0;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+    .breadcrumb-panel .breadcrumb-links a {
+      display: block;
+      padding: 9px 11px;
+      border-radius: 4px;
+      color: #2a2929;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+    .breadcrumb-panel .breadcrumb-links a:hover,
+    .breadcrumb-panel .breadcrumb-links a:focus-visible,
+    .breadcrumb-panel .breadcrumb-links a[aria-current='location'] {
+      background: #f6e9ea;
+      color: #6f1c21;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .breadcrumb-chapter-group + .breadcrumb-chapter-group { border-top: 1px solid #e9e9e9; }
+    .breadcrumb-group-heading {
+      margin: 0;
+      padding: 13px 16px 2px;
+      color: #671b1f;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+    /* HTML scroll-padding already offsets in-page targets for the sticky menu.
+       Do not add a second scroll-margin, which delayed the active Part label. */
+    .course-breadcrumb-nav a:focus-visible,
+    .course-breadcrumb-nav summary:focus-visible {
+      outline: 3px solid #376b9e;
+      outline-offset: 3px;
+    }
+    @media (max-width: 760px) {
+      .course-breadcrumb-nav { padding: 8px 5%; }
+      .breadcrumb-trail { gap: 5px 7px; }
+      .breadcrumb-trail > li { font-size: 14px; }
+      .breadcrumb-picker > summary { padding: 8px 9px; gap: 5px; }
+      .breadcrumb-home { font-size: 14px; }
+      .breadcrumb-picker--chapters .breadcrumb-panel { right: 0; left: auto; }
+      .breadcrumb-panel { max-height: min(65vh, 480px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .breadcrumb-caret { transition: none; }
+    }
+
+
+    .breadcrumb-home-mobile { display: none; }
+    @media (max-width: 760px) {
+      .breadcrumb-home-desktop { display: none; }
+      .breadcrumb-home-mobile { display: inline; }
+      /* Panels are viewport-aligned to avoid off-screen dropdowns at narrow widths. */
+      .breadcrumb-panel,
+      .breadcrumb-picker--chapters .breadcrumb-panel {
+        position: fixed;
+        top: var(--breadcrumb-bottom, 70px);
+        left: 12px;
+        right: 12px;
+        width: auto;
+        max-height: min(66vh, calc(100dvh - var(--breadcrumb-bottom, 70px) - 12px));
+      }
+    }
+
+    /* WCAG 2.2 A/AA remediation: visible focus, sufficient component contrast,
+       pointer target areas, focus-safe sticky navigation and user text spacing. */
+    html { scroll-padding-top: calc(var(--breadcrumb-height, 62px) + 22px); }
+    .skip-link {
+      position: fixed;
+      top: -100px;
+      left: 12px;
+      z-index: 1000;
+      border: 2px solid #075a9c;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.18);
+      text-decoration: underline;
+    }
+    .skip-link:focus, .skip-link:focus-visible { top: 12px; }
+    a:focus-visible,
+    .resource-download:focus-visible,
+    .course-breadcrumb-nav a:focus-visible,
+    .course-breadcrumb-nav summary:focus-visible,
+    .skip-link:focus-visible {
+      outline: 3px solid #075a9c;
+      outline-offset: 3px;
+    }
+    .course-breadcrumb-nav .breadcrumb-home {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0 5px;
+    }
+    .breadcrumb-picker > summary {
+      min-height: 44px;
+      border: 2px solid #767676;
+    }
+    .breadcrumb-panel { border: 2px solid #767676; }
+    .breadcrumb-panel .breadcrumb-links a {
+      display: flex;
+      align-items: center;
+      min-height: 40px;
+    }
+    .resource-actions {
+      flex-wrap: wrap;
+      white-space: normal;
+      gap: 8px 12px;
+    }
+    .resource-actions a {
+      display: inline-block;
+      padding: 4px 2px;
+      white-space: nowrap;
+    }
+    .page-title:focus,
+    .chapter-heading:focus,
+    #chapter-13:focus {
+      outline: 3px solid #075a9c;
+      outline-offset: 4px;
+    }
+    /* The skip-link destination takes programmatic focus and does not add a
+       document-sized focus rectangle. Its first section heading remains visible. */
+    #main-content:focus { outline: none; }
+    @media (max-width: 480px) {
+      .breadcrumb-trail { gap: 4px 6px; }
+      .course-breadcrumb-nav .breadcrumb-home { min-height: 42px; padding: 0 2px; }
+      .breadcrumb-picker > summary { min-height: 42px; padding: 7px 8px; }
+    }
+
+    /* Copyright and support link at the end of the course materials. */
+    .course-footer {
+      padding: 24px 5.25% 36px;
+      border-top: 1px solid var(--rule);
+      background: #fff;
+    }
+    .course-footer p { margin: 0; }
+    .course-update-announcement { margin: 0 0 30px; }
+
+    /* Preserve the source practicum and nested objective layouts without changing text. */
+    .practicum-block p, .reading-block > p, .reading-block > div > p { margin: 13px 0; }
+    .reading-block > div > .chapter-heading:first-child { margin-top: 16px; }
+    .reading-block > div > .chapter-heading:not(:first-child) { margin-top: 22px; }
+    .reading-block li[id^="chapter-"]:focus { outline: 3px solid #075a9c; outline-offset: 3px; }
+    .breadcrumb-panel .breadcrumb-links a { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to course materials</a>
+<header class="course-header" id="course-top" tabindex="-1">
+<h1>Coaching Soccer Principles, Second Edition</h1>
+<p class="subtitle">Course Materials</p>
+</header><nav aria-label="Course breadcrumb navigation" class="course-breadcrumb-nav"><ol class="breadcrumb-trail"><li><a aria-label="Return to top of course materials" class="breadcrumb-home" href="#course-top"><span class="breadcrumb-home-desktop">Course Materials</span><span class="breadcrumb-home-mobile">Top</span></a></li><li aria-hidden="true" class="breadcrumb-separator">›</li><li class="breadcrumb-picker-item"><details aria-label="Navigate to course section" class="breadcrumb-picker" id="jump-to-section"><summary><span class="visually-hidden">Choose course section. Current section: </span><span id="breadcrumb-current-section">Preparing to Coach</span><span aria-hidden="true" class="breadcrumb-caret">▾</span></summary><div class="breadcrumb-panel breadcrumb-panel--sections"><ul class="breadcrumb-links"><li><a href="#part-1">Preparing to Coach</a></li><li><a href="#part-2">Skills and Techniques</a></li><li><a href="#part-3">Tactics and Teamwork</a></li><li><a href="#part-4">Team Management</a></li></ul></div></details></li></ol></nav>
+<main id="main-content" tabindex="-1"><p class="course-update-announcement">The Successful Coaching reading assignments were updated to the Fifth Edition page numbers in December 2026.</p><section aria-labelledby="part-1" class="course-section"><h2 class="page-title" id="part-1" tabindex="-1">Preparing to Coach</h2><section aria-labelledby="reading-1" class="reading-block required-reading"><h3 id="reading-1">Required Reading (in <cite>Skills &amp; Strategies for Coaching Soccer, Second Edition</cite>)
+</h3><ul>
+<li id="chapter-1" tabindex="-1">Chapter 1: Ethics and Your Coaching Philosophy (pp. 4-7)</li>
+<li id="chapter-2" tabindex="-1">Chapter 2: Personal Coaching Strategies (pp. 10-15)</li>
+<li id="chapter-3" tabindex="-1">Chapter 3: Group Coaching Strategies (pp. 18-24)</li>
+</ul><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<ul>
+<li>Discuss the importance of putting winning in the proper perspective and developing your personal coaching philosophy. </li>
+<li>Identify the basic principles of coaching.</li>
+<li>Ddentify the basic principles of coaching.</li>
+</ul>
+</div></section><section aria-labelledby="reading-2" class="reading-block optional-reading"><h3 id="reading-2">Optional Reading</h3><p>We recommend that you review part I, Foundational Skills for Coaches (pp. 1-59), in <cite>Successful Coaching, Fifth Edition</cite>.
+</p><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<ul>
+<li>Develop your personal coaching philosophy.</li>
+<li>Determine your coaching objectives.</li>
+<li>Select a coaching style that fits your personality and complements your coaching philosophy.</li>
+
+<li>Explain the elements of coaching diverse athletes.</li>
+</ul>
+</div></section><section aria-labelledby="reading-3" class="reading-block practicum-block"><h3 id="reading-3">Practicum 1</h3><p>Develop and record the following items before you begin your next sport season: </p><ul>
+<li>Your personal coaching philosophy</li>
+<li>A mission statement for your sport program</li>
+<li>Athlete code of conduct</li>
+</ul><p>You should evaluate your philosophy, mission statement, and athlete code of conduct each year. If necessary, make adjustments to meet the specific needs and circumstances of your sport program.</p></section><section aria-labelledby="reading-4" class="reading-block practicum-block"><h3 id="reading-4">Practicum 2</h3><p>Develop an annual plan that includes the following:</p><ul>
+<li>Calendar on which you list out-of-season activities, preseason activities, in-season plans, and postseason plans</li>
+<li>Budget</li>
+<li>Camps and clinics</li>
+<li>Evaluations</li>
+<li>Fundraising</li>
+<li>Parent-player meetings</li>
+</ul><p>This plan should become a checklist that guides your program throughout the entire year.</p></section><section aria-labelledby="reading-5" class="reading-block practicum-block"><h3 id="reading-5">Practicum 3</h3><p>Develop an agenda for your preseason parent-player meeting. Create the following handouts:</p><ul>
+<li>Team rules</li>
+<li>Player-parent contract</li>
+<li>In-season hydration guide</li>
+</ul><p>Include any additional handouts that you would distribute during your first meeting with your players and their parents.</p></section></section><section aria-labelledby="part-2" class="course-section"><h2 class="page-title" id="part-2" tabindex="-1">Skills and Techniques</h2><section aria-labelledby="reading-6" class="reading-block required-reading"><h3 id="reading-6">Required Reading (in <cite>Skills &amp; Strategies for Coaching Soccer, Second Edition</cite>)
+</h3><ul>
+<li>Chapter 4: Collecting and Controlling the Ball (pp.28-54)</li>
+<li>Chapter 5: Passing (pp.56-94)</li>
+<li>Chapter 6: Dribbling (pp.96-121)</li>
+<li>Chapter 7: Striking the Ball (pp.124-139)</li>
+<li>Chapter 8: Shooting (pp.142-156)</li>
+<li>Chapter 9: Heading (pp.158-171)</li>
+<li>Chapter 10: Goalkeeping (pp.174-198)</li>
+<li>Chapter 11: Tackling and Defensive Skills (pp.200-230)</li>
+</ul><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<h5 class="chapter-heading" id="chapter-4" tabindex="-1">Chapter 4</h5>
+<ul>
+<li>Recognize and teach the skills necessary for effective ball control:</li>
+<li>Explain how club face direction and club path direction affect the direction of the ball.
+          <ul>
+<li>Ball juggling</li>
+<li>Collecting and controlling techniques</li>
+<li>Receiving the ball under pressure</li>
+<li>Controlling and passing on the move</li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-5" tabindex="-1">Chapter 5</h5>
+<ul>
+<li>Recognize and teach the basic techniques of short passing:
+          <ul>
+<li>Push pass</li>
+<li>Outside of the foot pass</li>
+<li>Instep pass</li>
+</ul>
+</li>
+<li>Recognize and teach the basic techniques of long passing.</li>
+<li>Introduce decision-making situations for both the passer and the receiver.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-6" tabindex="-1">Chapter 6</h5>
+<ul>
+<li>Teach the physical skills of dribbling:
+          <ul>
+<li>Keeping the ball within playing distance</li>
+<li>Remaining balanced</li>
+<li>Practiced moves</li>
+<li>Seeing the ball </li>
+</ul>
+</li>
+<li>Teach the mental aspects of dribbling:
+          <ul>
+<li>Confidence</li>
+<li>Opponent positioning</li>
+<li>React to opponent’s movement</li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-7" tabindex="-1">Chapter 7</h5>
+<ul>
+<li>Recognize and teach the various ways of striking the ball:
+          <ul>
+<li>Instep kick</li>
+<li>Volley and half-volley</li>
+<li>Chip</li>
+<li>Swerve</li>
+<li>Banana</li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-8" tabindex="-1">Chapter 8</h5>
+<ul>
+<li>Recognize and teach the skill of shooting:
+          <ul>
+<li>Where and how to aim</li>
+<li>When to shoot</li>
+<li>How to encourage players to stay calm and composed</li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-9" tabindex="-1">Chapter 9</h5>
+<ul>
+<li>Recognize and teach the skill of heading:
+          <ul>
+<li>Development of sensitive progression drills for beginners</li>
+<li>Attacking and defensive heading</li>
+<li>Diving technique</li>
+<li>Standing technique</li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-10" tabindex="-1">Chapter 10</h5>
+<ul>
+<li>Recognize and teach the skill of goalkeeping:
+          <ul>
+<li>Basic stance</li>
+<li>Catching the ball</li>
+<li>Ground shots</li>
+<li>Diving saves</li>
+<li>Crosses</li>
+</ul>
+</li>
+<li>Recognize and teach the skill of supporting the defense:
+          <ul>
+<li>Judging angles</li>
+<li>Distributing the ball by kicking</li>
+<li>Distributing the ball by hand</li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-11" tabindex="-1">Chapter 11</h5>
+<ul>
+<li>Recognize and teach first defender skills:
+          <ul>
+<li>Closing down on an attacker</li>
+<li>Positioning and interceptions</li>
+<li>Defending an attacker when turning</li>
+<li>Redirecting an attacker</li>
+<li>Recovering when beaten</li>
+</ul>
+</li>
+<li>Recognize and teach second defender skills:
+          <ul>
+<li>Covering and supporting</li>
+<li>Setting the offside trap</li>
+</ul>
+</li>
+<li>Examine the techniques of the three basic tackles:
+          <ul>
+<li>Block tackle</li>
+<li>Side block tackle</li>
+<li>Sliding tackle</li>
+</ul>
+</li>
+</ul>
+</div></section><section aria-labelledby="reading-7" class="reading-block optional-reading"><h3 id="reading-7">Optional Reading </h3><p>We recommend that you review the following chapters in part III, Being a Great Teacher, in <cite>Successful Coaching, Fifth Edition</cite>:</p><ul>
+<li>Chapter 9, The Games Approach (pp. 135-147)</li>
+<li>Chapter 10, Teaching Technical Skills (pp. 149-165)</li>
+</ul><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<ul>
+<li>Determine how you will incorporate the games approach into your practice plans.</li>
+<li>Describe how to effectively teach technical skills.</li>
+</ul>
+</div></section><section aria-labelledby="reading-8" class="reading-block practicum-block"><h3 id="reading-8">Practicum 4</h3><p>Select a skill that you'll teach your athletes early in the season. Then write down</p><div>
+<ul>
+<li>a description of the skill,</li>
+<li>how you'll introduce the skill,<strong></strong>
+</li>
+<li>how you'll demonstrate the skill,</li>
+<li>how you'll teach the skill, and</li>
+<li>the drills you'll use to practice the skill.</li>
+</ul>
+<p>Once your season begins and you have included this skill in a practice plan, evaluate the effectiveness of your plan and make the necessary adjustments that will enhance the learning experience of your athletes.</p>
+</div></section></section><section aria-labelledby="part-3" class="course-section"><h2 class="page-title" id="part-3" tabindex="-1">Tactics and Teamwork</h2><section aria-labelledby="reading-9" class="reading-block required-reading"><h3 id="reading-9">Required Reading (in <cite>Skills &amp; Strategies for Coaching Soccer, Second Edition</cite>)
+</h3><ul>
+<li>Chapter 12: Principles of Play (pp.234-241)</li>
+<li>Chapter 13: Team Formations and Systems of Play (pp.244-263)</li>
+<li>Chapter 14: Coaching Teamwork (pp.266-273)</li>
+<li>Chapter 15: Tactics in Defense, Midfield, and Attack (pp.276-286)</li>
+<li>Chapter 16: Set Pieces (pp.288-320)</li>
+</ul><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<h5 class="chapter-heading" id="chapter-12" tabindex="-1">Chapter 12</h5>
+<ul>
+<li>Be able to introduce the concepts related to team play.</li>
+<li>Recognize the nine principles of team play.</li>
+<li>List and discuss the three principles common to both attack and defense:
+          <ul>
+<li>Possession</li>
+<li>Support</li>
+<li>Communication</li>
+</ul>
+</li>
+<li>Explain the six principles of attack and defense:
+          <ul>
+<li>Delay in defense</li>
+<li>Penetration in attack</li>
+<li>Concentration in defense</li>
+<li>Width in attack</li>
+<li>Mobility in attack</li>
+<li>Balance in defense</li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-13" tabindex="-1">Chapter 13</h5>
+<ul>
+<li>Analyze the four most common modern systems of play:
+          <ul>
+<li>4-3-3</li>
+<li>4-2-4</li>
+<li>3-3-4</li>
+<li>4-4-2</li>
+</ul>
+</li>
+<li>Determine how to select a system that best accommodates the strengths and weaknesses of individual players. </li>
+<li>Design or modify a system to suit the needs of your team.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-14" tabindex="-1">Chapter 14</h5>
+<ul>
+<li>Apply the techniques and strategies of planning a practice:
+          <ul>
+<li>What do I coach?</li>
+<li>Where do I coach?</li>
+<li>How do I coach?</li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-15" tabindex="-1">Chapter 15</h5>
+<ul>
+<li>Introduce advanced tactics in defense, midfield, and attack.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-16" tabindex="-1">Chapter 16</h5>
+<ul>
+<li>Introduce and examine a series of moves and strategies for three kinds of set plays:
+          <ul>
+<li>Throw-ins</li>
+<li>Corner kicks</li>
+<li>Free kicks</li>
+</ul>
+</li>
+</ul>
+</div></section><section aria-labelledby="reading-10" class="reading-block required-reading"><h3 id="reading-10">Optional Reading</h3><p>We recommend that you review the following chapters in part III, Being a Great Teacher, in <cite>Successful Coaching, Fifth Edition</cite>:</p><ul>
+<li>Chapter 11, Teaching Tactical Skills (pp. 167-186)</li>
+<li>Chapter 12, Planning for Teaching (pp. 187-204)</li>
+</ul><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<ul>
+<li>Describe how to effectively teach tactical skills.</li>
+<li>List the benefits of planning for teaching.</li>
+</ul>
+</div></section><section aria-labelledby="reading-11" class="reading-block practicum-block"><h3 id="reading-11">Practicum 5</h3><p>Develop two complete practice plans that include the following:</p><div>
+<ul>
+<li>Preseason practice plan
+          <ul>
+<li>Warm-up</li>
+<li>Introduction of a new technical skill</li>
+<li>Games approach</li>
+<li>Conditioning</li>
+<li>Cool-down</li>
+</ul>
+</li>
+<li>In-season practice plan
+          <ul>
+<li>Warm-up</li>
+<li>Introduction of a new technical skill</li>
+<li>Games approach</li>
+<li>Controlled scrimmage</li>
+<li>Cool-down</li>
+</ul>
+</li>
+</ul>
+<p>Preseason practice plans should be based on the season plan you developed during the off-season. An in-season practice plan should be based on the adjustments you need to make from your last game and the scouting report for your next opponent.</p>
+</div></section></section><section aria-labelledby="part-4" class="course-section"><h2 class="page-title" id="part-4" tabindex="-1">Team Management</h2><section aria-labelledby="reading-12" class="reading-block required-reading"><h3 id="reading-12">Required Reading (in <cite>Skills &amp; Strategies for Coaching Soccer, Second Edition</cite>)
+</h3><ul>
+<li>Chapter 17: Physical and Mental Preparation for Games (pp.326-331)</li>
+<li>Chapter 18: Working with Problem Players and Parents (pp.334-342)</li>
+<li>Chapter 19: Fitness and Conditioning for Soccer (pp.344-364)</li>
+</ul><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<h5 class="chapter-heading" id="chapter-17" tabindex="-1">Chapter 17</h5>
+<ul>
+<li>Explain how to prepare your athletes physically for a game:
+          <ul>
+<li>Warm-up</li>
+<li>Cool-down</li>
+<li>Ball skills</li>
+</ul>
+</li>
+<li>Explain how to prepare your athletes physically for a game:
+          <ul>
+<li>Pregame meeting</li>
+<li>Communication during the game</li>
+<li>Postgame meeting </li>
+</ul>
+</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-18" tabindex="-1">Chapter 18</h5>
+<ul>
+<li>Identify the types of players that can be difficult to coach.</li>
+<li>Explore ways of working with difficult players and their parents.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-19" tabindex="-1">Chapter 19</h5>
+<ul>
+<li>Identify the fitness elements that collectively produce well-conditioned athletes.</li>
+<li>Understand the importance of diet, nutrition, and hydration to your athletes.</li>
+</ul>
+</div></section><section aria-labelledby="reading-13" class="reading-block optional-reading"><h3 id="reading-13">Optional Reading</h3><p>We recommend that you review part II, Understanding and Managing Athletes’ Behavior (pp. 59-131), in <cite>Successful Coaching, Fifth Edition</cite>. </p><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<ul>
+<li>Identify the value of character development for your athletes and select character development skills to teach.</li>
+<li>Identify ways of communicating effectively with your athletes.</li>
+<li>Outline strategies for motivating your athletes.</li>
+<li>Describe methods of managing your athletes’ behavior.</li>
+</ul>
+</div></section><section aria-labelledby="reading-14" class="reading-block optional-reading"><h3 id="reading-14">Optional Reading</h3><p>We recommend that you review part IV, Physical Training and Nutrition (pp. 205-315), in <cite>Successful Coaching, Fifth Edition</cite>. </p><h4 class="subsection-heading objectives-heading">Learning Objectives</h4><div>
+<ul>
+<li>Outline the basics of training the body for physical activity.</li>
+<li>Explain the concept of energy fitness.</li>
+<li>Describe ways of increasing muscular fitness and why it's important for your athletes.</li>
+<li>Explain how the body fuels itself.</li>
+<li>Understand your role in preventing substance abuse in your athletes.</li>
+</ul>
+</div></section><section aria-labelledby="reading-15" class="reading-block practicum-block"><h3 id="reading-15">Practicum 6</h3><p>Describe the building blocks of a successful sport program. Consider the following:</p><ul>
+<li>Surround yourself with good people</li>
+<li>Develop a feeder system</li>
+<li>Earn the respect of your athletes</li>
+<li>Pinpoint leaders</li>
+<li>Facility updates and accessibility</li>
+<li>Program promotion</li>
+<li>Team rules</li>
+<li>Developing champions on and off the field</li>
+</ul><p>Expand on these building blocks of a successful program, or create your own.</p></section><section aria-labelledby="reading-16" class="reading-block practicum-block"><h3 id="reading-16">Practicum 7</h3><p>Research the rules and regulations that govern athletes in your sport. Include state as well as local policies. The following are some areas to look into as you begin. As you research the regulations in these areas, you'll probably want to expand and add additional items:</p><ul>
+<li>Academic eligibility</li>
+<li>Health and immunization records </li>
+<li>Off-season participation</li>
+<li>Transfer rules</li>
+</ul></section><section aria-labelledby="reading-17" class="reading-block practicum-block"><h3 id="reading-17">Practicum 8</h3><p>Develop a plan to include positive parent involvement in your program:</p><ul>
+<li>Awards</li>
+<li>Concessions</li>
+<li>Fundraising</li>
+<li>Event management</li>
+<li>Team meals</li>
+<li>Transportation</li>
+</ul><p>Expand on these ideas or create your own plans to involve your parents in a positive way.</p></section><section aria-labelledby="reading-18" class="reading-block practicum-block"><h3 id="reading-18">Practicum 9</h3><p>Develop a facilities checklist to ensure you're providing a safe practice and meet environment for your athletes::</p><ul>
+<li>Gymnasium</li>
+<li>Locker rooms</li>
+<li>Field or outside playing area</li>
+<li>Pool</li>
+<li>Track</li>
+</ul><p>Create a checklist for each of the facilities or areas that pertain to your sport.</p></section><section aria-labelledby="reading-19" class="reading-block practicum-block"><h3 id="reading-19">Practicum 10</h3><p>Write up season summaries and program evaluations.</p><p>For record-keeping purposes, it's very important to have a season summary and evaluation on file in the athletic office. Develop an outline of items to include in your summary: </p><ul>
+<li>Award winners</li>
+<li>Win-loss record</li>
+<li>Win-loss record for lower-level teams</li>
+<li>Program strengths</li>
+<li>Program weaknesses</li>
+</ul><p>Expand on these ideas and add your own summary and evaluation items.</p></section></section></main>
+<footer aria-label="Copyright and support" class="course-footer"><p>Download the <a class="resource-download" download="Coaching-Soccer-Principles-Copyright-Support.docx" href="Coaching-Soccer-Principles-Copyright-Support.docx">Copyright and Support document</a>.
+                </p></footer>
+<script>
+(() => {
+  'use strict';
+  const nav = document.querySelector('.course-breadcrumb-nav');
+  if (!nav) return;
+  const menus = Array.from(nav.querySelectorAll('details.breadcrumb-picker'));
+  const partHeads = Array.from(document.querySelectorAll('.course-section > h2.page-title'));
+  const partIndicator = document.getElementById('breadcrumb-current-section');
+  let scheduled = false;
+
+  function updateNavHeight() {
+    document.documentElement.style.setProperty('--breadcrumb-height', nav.offsetHeight + 'px');
+    document.documentElement.style.setProperty('--breadcrumb-bottom', Math.ceil(nav.getBoundingClientRect().bottom + 7) + 'px');
+  }
+  function currentPart() {
+    const threshold = nav.getBoundingClientRect().bottom + 24;
+    let index = 0;
+    partHeads.forEach((heading, i) => {
+      if (heading.getBoundingClientRect().top <= threshold) index = i;
+    });
+    return index;
+  }
+  function updatePartIndicator() {
+    const index = currentPart();
+    partIndicator.textContent = partHeads[index].textContent.trim();
+    const activeId = partHeads[index].id;
+    nav.querySelectorAll('#jump-to-section .breadcrumb-links a').forEach(a => {
+      if (a.getAttribute('href') === '#' + activeId) {
+        a.setAttribute('aria-current','location');
+      } else {
+        a.removeAttribute('aria-current');
+      }
+    });
+  }
+  function scheduleUpdate() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(() => {
+      scheduled = false;
+      updateNavHeight();
+      updatePartIndicator();
+    });
+  }
+  menus.forEach(menu => {
+    menu.addEventListener('toggle', () => {
+      if (menu.open) menus.forEach(other => { if (other !== menu) other.open = false; });
+    });
+  });
+  nav.querySelectorAll('.breadcrumb-panel a[href^="#"]').forEach(a => {
+    a.addEventListener('click', () => {
+      menus.forEach(menu => { menu.open = false; });
+      const target = document.getElementById(a.getAttribute('href').slice(1));
+      if (target) {
+        // Let native hash navigation scroll the target; focus it for screen readers.
+        requestAnimationFrame(() => target.focus({preventScroll: true}));
+      }
+      scheduleUpdate();
+    });
+  });
+  document.addEventListener('click', event => {
+    if (!nav.contains(event.target)) menus.forEach(menu => { menu.open = false; });
+  });
+  // Dismiss any open popup as soon as keyboard focus moves outside navigation.
+  // This avoids a popup concealing a newly focused control underneath it.
+  document.addEventListener('focusin', event => {
+    if (!nav.contains(event.target)) {
+      menus.forEach(menu => { menu.open = false; });
+    }
+  });
+  nav.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      const open = menus.find(menu => menu.open);
+      if (open) {
+        open.open = false;
+        open.querySelector('summary').focus();
+        event.preventDefault();
+      }
+    }
+  });
+  window.addEventListener('scroll', scheduleUpdate, {passive:true});
+  window.addEventListener('resize', scheduleUpdate);
+  window.addEventListener('hashchange', scheduleUpdate);
+  updateNavHeight();
+  updatePartIndicator();
+})();
+</script></body>
+</html>
